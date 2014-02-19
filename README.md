@@ -11,6 +11,9 @@ Those are very simple tests for the moment being. Please feel free to add more
   - h. + .m  : 37 061
   - PNG, 48pts x 48 pts , low-res/retina :  38591 / 80035 bytes
 
+And because of what Da Vinci said:
+
+![A chart comparing size differences between SVG, Objective-C and PNG](./Experiments/chart01.png "Comparison size differences between SVG, Objective-C and PNG")
 
 # Protocol
 
