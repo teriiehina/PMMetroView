@@ -21,6 +21,64 @@
 		D73411A818B4DDB400D3A553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D734118A18B4DDB300D3A553 /* UIKit.framework */; };
 		D73411B018B4DDB400D3A553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D73411AE18B4DDB400D3A553 /* InfoPlist.strings */; };
 		D73411B218B4DDB400D3A553 /* TestMetroViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D73411B118B4DDB400D3A553 /* TestMetroViewTests.m */; };
+		D73411BE18B4DE4500D3A553 /* PMMetroView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73411BD18B4DE4500D3A553 /* PMMetroView.m */; };
+		D73411D018B4DE4E00D3A553 /* metrol1.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C018B4DE4E00D3A553 /* metrol1.svg.png */; };
+		D73411D118B4DE4E00D3A553 /* metrol10.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C118B4DE4E00D3A553 /* metrol10.svg.png */; };
+		D73411D218B4DE4E00D3A553 /* metrol11.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C218B4DE4E00D3A553 /* metrol11.svg.png */; };
+		D73411D318B4DE4E00D3A553 /* metrol12.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C318B4DE4E00D3A553 /* metrol12.svg.png */; };
+		D73411D418B4DE4E00D3A553 /* metrol13.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C418B4DE4E00D3A553 /* metrol13.svg.png */; };
+		D73411D518B4DE4E00D3A553 /* metrol14.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C518B4DE4E00D3A553 /* metrol14.svg.png */; };
+		D73411D618B4DE4E00D3A553 /* metrol2.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C618B4DE4E00D3A553 /* metrol2.svg.png */; };
+		D73411D718B4DE4E00D3A553 /* metrol3.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C718B4DE4E00D3A553 /* metrol3.svg.png */; };
+		D73411D818B4DE4E00D3A553 /* metrol3b.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C818B4DE4E00D3A553 /* metrol3b.svg.png */; };
+		D73411D918B4DE4E00D3A553 /* metrol4.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411C918B4DE4E00D3A553 /* metrol4.svg.png */; };
+		D73411DA18B4DE4E00D3A553 /* metrol5.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411CA18B4DE4E00D3A553 /* metrol5.svg.png */; };
+		D73411DB18B4DE4E00D3A553 /* metrol6.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411CB18B4DE4E00D3A553 /* metrol6.svg.png */; };
+		D73411DC18B4DE4E00D3A553 /* metrol7.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411CC18B4DE4E00D3A553 /* metrol7.svg.png */; };
+		D73411DD18B4DE4E00D3A553 /* metrol7b.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411CD18B4DE4E00D3A553 /* metrol7b.svg.png */; };
+		D73411DE18B4DE4E00D3A553 /* metrol8.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411CE18B4DE4E00D3A553 /* metrol8.svg.png */; };
+		D73411DF18B4DE4E00D3A553 /* metrol9.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = D73411CF18B4DE4E00D3A553 /* metrol9.svg.png */; };
+		D734120918B4DE5500D3A553 /* .png in Resources */ = {isa = PBXBuildFile; fileRef = D73411E118B4DE5500D3A553 /* .png */; };
+		D734120A18B4DE5500D3A553 /* metro.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E218B4DE5500D3A553 /* metro.svg */; };
+		D734120B18B4DE5500D3A553 /* metrol1.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E318B4DE5500D3A553 /* metrol1.svg */; };
+		D734120C18B4DE5500D3A553 /* metrol10.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E418B4DE5500D3A553 /* metrol10.svg */; };
+		D734120D18B4DE5500D3A553 /* metrol11.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E518B4DE5500D3A553 /* metrol11.svg */; };
+		D734120E18B4DE5500D3A553 /* metrol12.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E618B4DE5500D3A553 /* metrol12.svg */; };
+		D734120F18B4DE5500D3A553 /* metrol13.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E718B4DE5500D3A553 /* metrol13.svg */; };
+		D734121018B4DE5500D3A553 /* metrol14.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E818B4DE5500D3A553 /* metrol14.svg */; };
+		D734121118B4DE5500D3A553 /* metrol2.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411E918B4DE5500D3A553 /* metrol2.svg */; };
+		D734121218B4DE5500D3A553 /* metrol3.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411EA18B4DE5500D3A553 /* metrol3.svg */; };
+		D734121318B4DE5500D3A553 /* metrol3b.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411EB18B4DE5500D3A553 /* metrol3b.svg */; };
+		D734121418B4DE5500D3A553 /* metrol4.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411EC18B4DE5500D3A553 /* metrol4.svg */; };
+		D734121518B4DE5500D3A553 /* metrol5.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411ED18B4DE5500D3A553 /* metrol5.svg */; };
+		D734121618B4DE5500D3A553 /* metrol6.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411EE18B4DE5500D3A553 /* metrol6.svg */; };
+		D734121718B4DE5500D3A553 /* metrol7.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411EF18B4DE5500D3A553 /* metrol7.svg */; };
+		D734121818B4DE5500D3A553 /* metrol7b.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F018B4DE5500D3A553 /* metrol7b.svg */; };
+		D734121918B4DE5500D3A553 /* metrol8.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F118B4DE5500D3A553 /* metrol8.svg */; };
+		D734121A18B4DE5500D3A553 /* metrol9.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F218B4DE5500D3A553 /* metrol9.svg */; };
+		D734121B18B4DE5500D3A553 /* rer.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F318B4DE5500D3A553 /* rer.svg */; };
+		D734121C18B4DE5500D3A553 /* rerlA.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F418B4DE5500D3A553 /* rerlA.svg */; };
+		D734121D18B4DE5500D3A553 /* rerlB.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F518B4DE5500D3A553 /* rerlB.svg */; };
+		D734121E18B4DE5500D3A553 /* rerlC.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F618B4DE5500D3A553 /* rerlC.svg */; };
+		D734121F18B4DE5500D3A553 /* rerlD.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F718B4DE5500D3A553 /* rerlD.svg */; };
+		D734122018B4DE5500D3A553 /* rerlE.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F818B4DE5500D3A553 /* rerlE.svg */; };
+		D734122118B4DE5500D3A553 /* tram.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411F918B4DE5500D3A553 /* tram.svg */; };
+		D734122218B4DE5500D3A553 /* traml1.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411FA18B4DE5500D3A553 /* traml1.svg */; };
+		D734122318B4DE5500D3A553 /* traml2.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411FB18B4DE5500D3A553 /* traml2.svg */; };
+		D734122418B4DE5500D3A553 /* traml3a.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411FC18B4DE5500D3A553 /* traml3a.svg */; };
+		D734122518B4DE5500D3A553 /* traml3b.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411FD18B4DE5500D3A553 /* traml3b.svg */; };
+		D734122618B4DE5500D3A553 /* traml4.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411FE18B4DE5500D3A553 /* traml4.svg */; };
+		D734122718B4DE5500D3A553 /* traml5.svg in Resources */ = {isa = PBXBuildFile; fileRef = D73411FF18B4DE5500D3A553 /* traml5.svg */; };
+		D734122818B4DE5500D3A553 /* transilien.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120018B4DE5500D3A553 /* transilien.svg */; };
+		D734122918B4DE5500D3A553 /* transilienH.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120118B4DE5500D3A553 /* transilienH.svg */; };
+		D734122A18B4DE5500D3A553 /* transilienJ.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120218B4DE5500D3A553 /* transilienJ.svg */; };
+		D734122B18B4DE5500D3A553 /* transilienK.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120318B4DE5500D3A553 /* transilienK.svg */; };
+		D734122C18B4DE5500D3A553 /* transilienL.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120418B4DE5500D3A553 /* transilienL.svg */; };
+		D734122D18B4DE5500D3A553 /* transilienN.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120518B4DE5500D3A553 /* transilienN.svg */; };
+		D734122E18B4DE5500D3A553 /* transilienP.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120618B4DE5500D3A553 /* transilienP.svg */; };
+		D734122F18B4DE5500D3A553 /* transilienR.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120718B4DE5500D3A553 /* transilienR.svg */; };
+		D734123018B4DE5500D3A553 /* transilienU.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120818B4DE5500D3A553 /* transilienU.svg */; };
+		D73412B118B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B018B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +111,190 @@
 		D73411AD18B4DDB400D3A553 /* TestMetroViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMetroViewTests-Info.plist"; sourceTree = "<group>"; };
 		D73411AF18B4DDB400D3A553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D73411B118B4DDB400D3A553 /* TestMetroViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMetroViewTests.m; sourceTree = "<group>"; };
+		D73411BC18B4DE4500D3A553 /* PMMetroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMetroView.h; sourceTree = "<group>"; };
+		D73411BD18B4DE4500D3A553 /* PMMetroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMetroView.m; sourceTree = "<group>"; };
+		D73411C018B4DE4E00D3A553 /* metrol1.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol1.svg.png; sourceTree = "<group>"; };
+		D73411C118B4DE4E00D3A553 /* metrol10.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol10.svg.png; sourceTree = "<group>"; };
+		D73411C218B4DE4E00D3A553 /* metrol11.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol11.svg.png; sourceTree = "<group>"; };
+		D73411C318B4DE4E00D3A553 /* metrol12.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol12.svg.png; sourceTree = "<group>"; };
+		D73411C418B4DE4E00D3A553 /* metrol13.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol13.svg.png; sourceTree = "<group>"; };
+		D73411C518B4DE4E00D3A553 /* metrol14.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol14.svg.png; sourceTree = "<group>"; };
+		D73411C618B4DE4E00D3A553 /* metrol2.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol2.svg.png; sourceTree = "<group>"; };
+		D73411C718B4DE4E00D3A553 /* metrol3.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol3.svg.png; sourceTree = "<group>"; };
+		D73411C818B4DE4E00D3A553 /* metrol3b.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol3b.svg.png; sourceTree = "<group>"; };
+		D73411C918B4DE4E00D3A553 /* metrol4.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol4.svg.png; sourceTree = "<group>"; };
+		D73411CA18B4DE4E00D3A553 /* metrol5.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol5.svg.png; sourceTree = "<group>"; };
+		D73411CB18B4DE4E00D3A553 /* metrol6.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol6.svg.png; sourceTree = "<group>"; };
+		D73411CC18B4DE4E00D3A553 /* metrol7.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol7.svg.png; sourceTree = "<group>"; };
+		D73411CD18B4DE4E00D3A553 /* metrol7b.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol7b.svg.png; sourceTree = "<group>"; };
+		D73411CE18B4DE4E00D3A553 /* metrol8.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol8.svg.png; sourceTree = "<group>"; };
+		D73411CF18B4DE4E00D3A553 /* metrol9.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metrol9.svg.png; sourceTree = "<group>"; };
+		D73411E118B4DE5500D3A553 /* .png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .png; sourceTree = "<group>"; };
+		D73411E218B4DE5500D3A553 /* metro.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metro.svg; sourceTree = "<group>"; };
+		D73411E318B4DE5500D3A553 /* metrol1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol1.svg; sourceTree = "<group>"; };
+		D73411E418B4DE5500D3A553 /* metrol10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol10.svg; sourceTree = "<group>"; };
+		D73411E518B4DE5500D3A553 /* metrol11.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol11.svg; sourceTree = "<group>"; };
+		D73411E618B4DE5500D3A553 /* metrol12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol12.svg; sourceTree = "<group>"; };
+		D73411E718B4DE5500D3A553 /* metrol13.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol13.svg; sourceTree = "<group>"; };
+		D73411E818B4DE5500D3A553 /* metrol14.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol14.svg; sourceTree = "<group>"; };
+		D73411E918B4DE5500D3A553 /* metrol2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol2.svg; sourceTree = "<group>"; };
+		D73411EA18B4DE5500D3A553 /* metrol3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol3.svg; sourceTree = "<group>"; };
+		D73411EB18B4DE5500D3A553 /* metrol3b.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol3b.svg; sourceTree = "<group>"; };
+		D73411EC18B4DE5500D3A553 /* metrol4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol4.svg; sourceTree = "<group>"; };
+		D73411ED18B4DE5500D3A553 /* metrol5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol5.svg; sourceTree = "<group>"; };
+		D73411EE18B4DE5500D3A553 /* metrol6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol6.svg; sourceTree = "<group>"; };
+		D73411EF18B4DE5500D3A553 /* metrol7.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol7.svg; sourceTree = "<group>"; };
+		D73411F018B4DE5500D3A553 /* metrol7b.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol7b.svg; sourceTree = "<group>"; };
+		D73411F118B4DE5500D3A553 /* metrol8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol8.svg; sourceTree = "<group>"; };
+		D73411F218B4DE5500D3A553 /* metrol9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metrol9.svg; sourceTree = "<group>"; };
+		D73411F318B4DE5500D3A553 /* rer.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rer.svg; sourceTree = "<group>"; };
+		D73411F418B4DE5500D3A553 /* rerlA.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rerlA.svg; sourceTree = "<group>"; };
+		D73411F518B4DE5500D3A553 /* rerlB.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rerlB.svg; sourceTree = "<group>"; };
+		D73411F618B4DE5500D3A553 /* rerlC.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rerlC.svg; sourceTree = "<group>"; };
+		D73411F718B4DE5500D3A553 /* rerlD.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rerlD.svg; sourceTree = "<group>"; };
+		D73411F818B4DE5500D3A553 /* rerlE.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rerlE.svg; sourceTree = "<group>"; };
+		D73411F918B4DE5500D3A553 /* tram.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tram.svg; sourceTree = "<group>"; };
+		D73411FA18B4DE5500D3A553 /* traml1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traml1.svg; sourceTree = "<group>"; };
+		D73411FB18B4DE5500D3A553 /* traml2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traml2.svg; sourceTree = "<group>"; };
+		D73411FC18B4DE5500D3A553 /* traml3a.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traml3a.svg; sourceTree = "<group>"; };
+		D73411FD18B4DE5500D3A553 /* traml3b.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traml3b.svg; sourceTree = "<group>"; };
+		D73411FE18B4DE5500D3A553 /* traml4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traml4.svg; sourceTree = "<group>"; };
+		D73411FF18B4DE5500D3A553 /* traml5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traml5.svg; sourceTree = "<group>"; };
+		D734120018B4DE5500D3A553 /* transilien.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilien.svg; sourceTree = "<group>"; };
+		D734120118B4DE5500D3A553 /* transilienH.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienH.svg; sourceTree = "<group>"; };
+		D734120218B4DE5500D3A553 /* transilienJ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienJ.svg; sourceTree = "<group>"; };
+		D734120318B4DE5500D3A553 /* transilienK.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienK.svg; sourceTree = "<group>"; };
+		D734120418B4DE5500D3A553 /* transilienL.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienL.svg; sourceTree = "<group>"; };
+		D734120518B4DE5500D3A553 /* transilienN.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienN.svg; sourceTree = "<group>"; };
+		D734120618B4DE5500D3A553 /* transilienP.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienP.svg; sourceTree = "<group>"; };
+		D734120718B4DE5500D3A553 /* transilienR.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienR.svg; sourceTree = "<group>"; };
+		D734120818B4DE5500D3A553 /* transilienU.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transilienU.svg; sourceTree = "<group>"; };
+		D734123318B4DF3700D3A553 /* AppleSucksDOMImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSucksDOMImplementation.h; sourceTree = "<group>"; };
+		D734123418B4DF3700D3A553 /* Attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attr.h; sourceTree = "<group>"; };
+		D734123518B4DF3700D3A553 /* BaseClassForAllSVGBasicShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClassForAllSVGBasicShapes.h; sourceTree = "<group>"; };
+		D734123618B4DF3700D3A553 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClassForAllSVGBasicShapes_ForSubclasses.h; sourceTree = "<group>"; };
+		D734123718B4DF3700D3A553 /* CALayer+RecursiveClone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+RecursiveClone.h"; sourceTree = "<group>"; };
+		D734123818B4DF3700D3A553 /* CALayerExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerExporter.h; sourceTree = "<group>"; };
+		D734123918B4DF3700D3A553 /* CALayerWithChildHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerWithChildHitTest.h; sourceTree = "<group>"; };
+		D734123A18B4DF3700D3A553 /* CAShapeLayerWithHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerWithHitTest.h; sourceTree = "<group>"; };
+		D734123B18B4DF3700D3A553 /* CDATASection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDATASection.h; sourceTree = "<group>"; };
+		D734123C18B4DF3700D3A553 /* CGPathAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPathAdditions.h; sourceTree = "<group>"; };
+		D734123D18B4DF3700D3A553 /* CharacterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterData.h; sourceTree = "<group>"; };
+		D734123E18B4DF3700D3A553 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		D734123F18B4DF3700D3A553 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		D734124018B4DF3700D3A553 /* ConverterSVGToCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterSVGToCALayer.h; sourceTree = "<group>"; };
+		D734124118B4DF3700D3A553 /* CSSPrimitiveValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSPrimitiveValue.h; sourceTree = "<group>"; };
+		D734124218B4DF3700D3A553 /* CSSRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSRule.h; sourceTree = "<group>"; };
+		D734124318B4DF3700D3A553 /* CSSRuleList+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSSRuleList+Mutable.h"; sourceTree = "<group>"; };
+		D734124418B4DF3700D3A553 /* CSSRuleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSRuleList.h; sourceTree = "<group>"; };
+		D734124518B4DF3700D3A553 /* CSSStyleDeclaration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSStyleDeclaration.h; sourceTree = "<group>"; };
+		D734124618B4DF3700D3A553 /* CSSStyleRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSStyleRule.h; sourceTree = "<group>"; };
+		D734124718B4DF3700D3A553 /* CSSStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSStyleSheet.h; sourceTree = "<group>"; };
+		D734124818B4DF3700D3A553 /* CSSValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSValue.h; sourceTree = "<group>"; };
+		D734124918B4DF3700D3A553 /* CSSValue_ForSubclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSValue_ForSubclasses.h; sourceTree = "<group>"; };
+		D734124A18B4DF3700D3A553 /* CSSValueList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSValueList.h; sourceTree = "<group>"; };
+		D734124B18B4DF3700D3A553 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		D734124C18B4DF3700D3A553 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		D734124D18B4DF3700D3A553 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		D734124E18B4DF3700D3A553 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		D734124F18B4DF3700D3A553 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		D734125018B4DF3700D3A553 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		D734125118B4DF3700D3A553 /* Document+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Document+Mutable.h"; sourceTree = "<group>"; };
+		D734125218B4DF3700D3A553 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		D734125318B4DF3700D3A553 /* DocumentCSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentCSS.h; sourceTree = "<group>"; };
+		D734125418B4DF3700D3A553 /* DocumentFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentFragment.h; sourceTree = "<group>"; };
+		D734125518B4DF3700D3A553 /* DocumentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentStyle.h; sourceTree = "<group>"; };
+		D734125618B4DF3700D3A553 /* DocumentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentType.h; sourceTree = "<group>"; };
+		D734125718B4DF3700D3A553 /* DOMGlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMGlobalSettings.h; sourceTree = "<group>"; };
+		D734125818B4DF3700D3A553 /* DOMHelperUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMHelperUtilities.h; sourceTree = "<group>"; };
+		D734125918B4DF3700D3A553 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		D734125A18B4DF3700D3A553 /* EntityReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityReference.h; sourceTree = "<group>"; };
+		D734125B18B4DF3700D3A553 /* MediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaList.h; sourceTree = "<group>"; };
+		D734125C18B4DF3700D3A553 /* NamedNodeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedNodeMap.h; sourceTree = "<group>"; };
+		D734125D18B4DF3700D3A553 /* NamedNodeMap_Iterable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedNodeMap_Iterable.h; sourceTree = "<group>"; };
+		D734125E18B4DF3700D3A553 /* Node+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Node+Mutable.h"; sourceTree = "<group>"; };
+		D734125F18B4DF3700D3A553 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		D734126018B4DF3700D3A553 /* NodeList+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NodeList+Mutable.h"; sourceTree = "<group>"; };
+		D734126118B4DF3700D3A553 /* NodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeList.h; sourceTree = "<group>"; };
+		D734126218B4DF3700D3A553 /* NSCharacterSet+SVGKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+SVGKExtensions.h"; sourceTree = "<group>"; };
+		D734126318B4DF3700D3A553 /* ProcessingInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessingInstruction.h; sourceTree = "<group>"; };
+		D734126418B4DF3700D3A553 /* StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleSheet.h; sourceTree = "<group>"; };
+		D734126518B4DF3700D3A553 /* StyleSheetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleSheetList.h; sourceTree = "<group>"; };
+		D734126618B4DF3700D3A553 /* SVGAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAngle.h; sourceTree = "<group>"; };
+		D734126718B4DF3700D3A553 /* SVGAnimatedPreserveAspectRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAnimatedPreserveAspectRatio.h; sourceTree = "<group>"; };
+		D734126818B4DF3700D3A553 /* SVGCircleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGCircleElement.h; sourceTree = "<group>"; };
+		D734126918B4DF3700D3A553 /* SVGDefsElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGDefsElement.h; sourceTree = "<group>"; };
+		D734126A18B4DF3700D3A553 /* SVGDescriptionElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGDescriptionElement.h; sourceTree = "<group>"; };
+		D734126B18B4DF3700D3A553 /* SVGDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGDocument.h; sourceTree = "<group>"; };
+		D734126C18B4DF3700D3A553 /* SVGDocument_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGDocument_Mutable.h; sourceTree = "<group>"; };
+		D734126D18B4DF3700D3A553 /* SVGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGElement.h; sourceTree = "<group>"; };
+		D734126E18B4DF3700D3A553 /* SVGElement_ForParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGElement_ForParser.h; sourceTree = "<group>"; };
+		D734126F18B4DF3700D3A553 /* SVGElementInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGElementInstance.h; sourceTree = "<group>"; };
+		D734127018B4DF3700D3A553 /* SVGElementInstance_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGElementInstance_Mutable.h; sourceTree = "<group>"; };
+		D734127118B4DF3700D3A553 /* SVGElementInstanceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGElementInstanceList.h; sourceTree = "<group>"; };
+		D734127218B4DF3700D3A553 /* SVGElementInstanceList_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGElementInstanceList_Internal.h; sourceTree = "<group>"; };
+		D734127318B4DF3700D3A553 /* SVGEllipseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGEllipseElement.h; sourceTree = "<group>"; };
+		D734127418B4DF3700D3A553 /* SVGFitToViewBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGFitToViewBox.h; sourceTree = "<group>"; };
+		D734127518B4DF3700D3A553 /* SVGGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGGElement.h; sourceTree = "<group>"; };
+		D734127618B4DF3700D3A553 /* SVGGradientElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGGradientElement.h; sourceTree = "<group>"; };
+		D734127718B4DF3700D3A553 /* SVGGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGGradientLayer.h; sourceTree = "<group>"; };
+		D734127818B4DF3700D3A553 /* SVGGradientStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGGradientStop.h; sourceTree = "<group>"; };
+		D734127918B4DF3700D3A553 /* SVGGroupElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGGroupElement.h; sourceTree = "<group>"; };
+		D734127A18B4DF3700D3A553 /* SVGHelperUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGHelperUtilities.h; sourceTree = "<group>"; };
+		D734127B18B4DF3700D3A553 /* SVGImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGImageElement.h; sourceTree = "<group>"; };
+		D734127C18B4DF3700D3A553 /* SVGKExporterNSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKExporterNSData.h; sourceTree = "<group>"; };
+		D734127D18B4DF3700D3A553 /* SVGKExporterUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKExporterUIImage.h; sourceTree = "<group>"; };
+		D734127E18B4DF3700D3A553 /* SVGKFastImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKFastImageView.h; sourceTree = "<group>"; };
+		D734127F18B4DF3700D3A553 /* SVGKImage+CGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVGKImage+CGContext.h"; sourceTree = "<group>"; };
+		D734128018B4DF3700D3A553 /* SVGKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKImage.h; sourceTree = "<group>"; };
+		D734128118B4DF3700D3A553 /* SVGKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKImageView.h; sourceTree = "<group>"; };
+		D734128218B4DF3700D3A553 /* SVGKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKit.h; sourceTree = "<group>"; };
+		D734128318B4DF3700D3A553 /* SVGKLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKLayer.h; sourceTree = "<group>"; };
+		D734128418B4DF3700D3A553 /* SVGKLayeredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKLayeredImageView.h; sourceTree = "<group>"; };
+		D734128518B4DF3700D3A553 /* SVGKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParser.h; sourceTree = "<group>"; };
+		D734128618B4DF3700D3A553 /* SVGKParserDefsAndUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserDefsAndUse.h; sourceTree = "<group>"; };
+		D734128718B4DF3700D3A553 /* SVGKParserDOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserDOM.h; sourceTree = "<group>"; };
+		D734128818B4DF3700D3A553 /* SVGKParseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParseResult.h; sourceTree = "<group>"; };
+		D734128918B4DF3700D3A553 /* SVGKParserExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserExtension.h; sourceTree = "<group>"; };
+		D734128A18B4DF3700D3A553 /* SVGKParserGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserGradient.h; sourceTree = "<group>"; };
+		D734128B18B4DF3700D3A553 /* SVGKParserPatternsAndGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserPatternsAndGradients.h; sourceTree = "<group>"; };
+		D734128C18B4DF3700D3A553 /* SVGKParserStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserStyles.h; sourceTree = "<group>"; };
+		D734128D18B4DF3700D3A553 /* SVGKParserSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKParserSVG.h; sourceTree = "<group>"; };
+		D734128E18B4DF3700D3A553 /* SVGKPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKPattern.h; sourceTree = "<group>"; };
+		D734128F18B4DF3700D3A553 /* SVGKPointsAndPathsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKPointsAndPathsParser.h; sourceTree = "<group>"; };
+		D734129018B4DF3700D3A553 /* SVGKSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKSource.h; sourceTree = "<group>"; };
+		D734129118B4DF3700D3A553 /* SVGKSourceLocalFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKSourceLocalFile.h; sourceTree = "<group>"; };
+		D734129218B4DF3700D3A553 /* SVGKSourceString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKSourceString.h; sourceTree = "<group>"; };
+		D734129318B4DF3700D3A553 /* SVGKSourceURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKSourceURL.h; sourceTree = "<group>"; };
+		D734129418B4DF3700D3A553 /* SVGLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGLength.h; sourceTree = "<group>"; };
+		D734129518B4DF3700D3A553 /* SVGLineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGLineElement.h; sourceTree = "<group>"; };
+		D734129618B4DF3700D3A553 /* SVGMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGMatrix.h; sourceTree = "<group>"; };
+		D734129718B4DF3700D3A553 /* SVGNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGNumber.h; sourceTree = "<group>"; };
+		D734129818B4DF3700D3A553 /* SVGPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPathElement.h; sourceTree = "<group>"; };
+		D734129918B4DF3700D3A553 /* SVGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPoint.h; sourceTree = "<group>"; };
+		D734129A18B4DF3700D3A553 /* SVGPolygonElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPolygonElement.h; sourceTree = "<group>"; };
+		D734129B18B4DF3700D3A553 /* SVGPolylineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPolylineElement.h; sourceTree = "<group>"; };
+		D734129C18B4DF3700D3A553 /* SVGPreserveAspectRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPreserveAspectRatio.h; sourceTree = "<group>"; };
+		D734129D18B4DF3700D3A553 /* SVGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGRect.h; sourceTree = "<group>"; };
+		D734129E18B4DF3700D3A553 /* SVGRectElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGRectElement.h; sourceTree = "<group>"; };
+		D734129F18B4DF3700D3A553 /* SVGStylable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGStylable.h; sourceTree = "<group>"; };
+		D73412A018B4DF3700D3A553 /* SVGStyleCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGStyleCatcher.h; sourceTree = "<group>"; };
+		D73412A118B4DF3700D3A553 /* SVGStyleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGStyleElement.h; sourceTree = "<group>"; };
+		D73412A218B4DF3700D3A553 /* SVGSVGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGSVGElement.h; sourceTree = "<group>"; };
+		D73412A318B4DF3700D3A553 /* SVGSVGElement_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGSVGElement_Mutable.h; sourceTree = "<group>"; };
+		D73412A418B4DF3700D3A553 /* SVGTextContentElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTextContentElement.h; sourceTree = "<group>"; };
+		D73412A518B4DF3700D3A553 /* SVGTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTextElement.h; sourceTree = "<group>"; };
+		D73412A618B4DF3700D3A553 /* SVGTextPositioningElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTextPositioningElement.h; sourceTree = "<group>"; };
+		D73412A718B4DF3700D3A553 /* SVGTextPositioningElement_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTextPositioningElement_Mutable.h; sourceTree = "<group>"; };
+		D73412A818B4DF3700D3A553 /* SVGTitleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTitleElement.h; sourceTree = "<group>"; };
+		D73412A918B4DF3700D3A553 /* SVGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTransform.h; sourceTree = "<group>"; };
+		D73412AA18B4DF3700D3A553 /* SVGTransformable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGTransformable.h; sourceTree = "<group>"; };
+		D73412AB18B4DF3700D3A553 /* SVGUseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGUseElement.h; sourceTree = "<group>"; };
+		D73412AC18B4DF3700D3A553 /* SVGUseElement_Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGUseElement_Mutable.h; sourceTree = "<group>"; };
+		D73412AD18B4DF3700D3A553 /* SVGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGUtils.h; sourceTree = "<group>"; };
+		D73412AE18B4DF3700D3A553 /* SVGViewSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGViewSpec.h; sourceTree = "<group>"; };
+		D73412AF18B4DF3700D3A553 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		D73412B018B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSVGKit-iOS.1.2.0pre.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +304,7 @@
 			files = (
 				D734118918B4DDB300D3A553 /* CoreGraphics.framework in Frameworks */,
 				D734118B18B4DDB300D3A553 /* UIKit.framework in Frameworks */,
+				D73412B118B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a in Frameworks */,
 				D734118718B4DDB300D3A553 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +344,7 @@
 		D734118518B4DDB300D3A553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D734123118B4DF3700D3A553 /* libSVG */,
 				D734118618B4DDB300D3A553 /* Foundation.framework */,
 				D734118818B4DDB300D3A553 /* CoreGraphics.framework */,
 				D734118A18B4DDB300D3A553 /* UIKit.framework */,
@@ -112,11 +356,14 @@
 		D734118C18B4DDB300D3A553 /* TestMetroView */ = {
 			isa = PBXGroup;
 			children = (
+				D73411BB18B4DE4500D3A553 /* Classes */,
 				D734119518B4DDB300D3A553 /* TMVAppDelegate.h */,
 				D734119618B4DDB300D3A553 /* TMVAppDelegate.m */,
 				D734119818B4DDB300D3A553 /* Main.storyboard */,
 				D734119B18B4DDB300D3A553 /* TMVViewController.h */,
 				D734119C18B4DDB300D3A553 /* TMVViewController.m */,
+				D73411BF18B4DE4E00D3A553 /* PNGs */,
+				D73411E018B4DE5500D3A553 /* SVGs */,
 				D734119E18B4DDB300D3A553 /* Images.xcassets */,
 				D734118D18B4DDB300D3A553 /* Supporting Files */,
 			);
@@ -150,6 +397,229 @@
 				D73411AE18B4DDB400D3A553 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D73411BB18B4DE4500D3A553 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D73411BC18B4DE4500D3A553 /* PMMetroView.h */,
+				D73411BD18B4DE4500D3A553 /* PMMetroView.m */,
+			);
+			name = Classes;
+			path = ../../../Classes;
+			sourceTree = "<group>";
+		};
+		D73411BF18B4DE4E00D3A553 /* PNGs */ = {
+			isa = PBXGroup;
+			children = (
+				D73411C018B4DE4E00D3A553 /* metrol1.svg.png */,
+				D73411C118B4DE4E00D3A553 /* metrol10.svg.png */,
+				D73411C218B4DE4E00D3A553 /* metrol11.svg.png */,
+				D73411C318B4DE4E00D3A553 /* metrol12.svg.png */,
+				D73411C418B4DE4E00D3A553 /* metrol13.svg.png */,
+				D73411C518B4DE4E00D3A553 /* metrol14.svg.png */,
+				D73411C618B4DE4E00D3A553 /* metrol2.svg.png */,
+				D73411C718B4DE4E00D3A553 /* metrol3.svg.png */,
+				D73411C818B4DE4E00D3A553 /* metrol3b.svg.png */,
+				D73411C918B4DE4E00D3A553 /* metrol4.svg.png */,
+				D73411CA18B4DE4E00D3A553 /* metrol5.svg.png */,
+				D73411CB18B4DE4E00D3A553 /* metrol6.svg.png */,
+				D73411CC18B4DE4E00D3A553 /* metrol7.svg.png */,
+				D73411CD18B4DE4E00D3A553 /* metrol7b.svg.png */,
+				D73411CE18B4DE4E00D3A553 /* metrol8.svg.png */,
+				D73411CF18B4DE4E00D3A553 /* metrol9.svg.png */,
+			);
+			name = PNGs;
+			path = ../../../PNGs;
+			sourceTree = "<group>";
+		};
+		D73411E018B4DE5500D3A553 /* SVGs */ = {
+			isa = PBXGroup;
+			children = (
+				D73411E118B4DE5500D3A553 /* .png */,
+				D73411E218B4DE5500D3A553 /* metro.svg */,
+				D73411E318B4DE5500D3A553 /* metrol1.svg */,
+				D73411E418B4DE5500D3A553 /* metrol10.svg */,
+				D73411E518B4DE5500D3A553 /* metrol11.svg */,
+				D73411E618B4DE5500D3A553 /* metrol12.svg */,
+				D73411E718B4DE5500D3A553 /* metrol13.svg */,
+				D73411E818B4DE5500D3A553 /* metrol14.svg */,
+				D73411E918B4DE5500D3A553 /* metrol2.svg */,
+				D73411EA18B4DE5500D3A553 /* metrol3.svg */,
+				D73411EB18B4DE5500D3A553 /* metrol3b.svg */,
+				D73411EC18B4DE5500D3A553 /* metrol4.svg */,
+				D73411ED18B4DE5500D3A553 /* metrol5.svg */,
+				D73411EE18B4DE5500D3A553 /* metrol6.svg */,
+				D73411EF18B4DE5500D3A553 /* metrol7.svg */,
+				D73411F018B4DE5500D3A553 /* metrol7b.svg */,
+				D73411F118B4DE5500D3A553 /* metrol8.svg */,
+				D73411F218B4DE5500D3A553 /* metrol9.svg */,
+				D73411F318B4DE5500D3A553 /* rer.svg */,
+				D73411F418B4DE5500D3A553 /* rerlA.svg */,
+				D73411F518B4DE5500D3A553 /* rerlB.svg */,
+				D73411F618B4DE5500D3A553 /* rerlC.svg */,
+				D73411F718B4DE5500D3A553 /* rerlD.svg */,
+				D73411F818B4DE5500D3A553 /* rerlE.svg */,
+				D73411F918B4DE5500D3A553 /* tram.svg */,
+				D73411FA18B4DE5500D3A553 /* traml1.svg */,
+				D73411FB18B4DE5500D3A553 /* traml2.svg */,
+				D73411FC18B4DE5500D3A553 /* traml3a.svg */,
+				D73411FD18B4DE5500D3A553 /* traml3b.svg */,
+				D73411FE18B4DE5500D3A553 /* traml4.svg */,
+				D73411FF18B4DE5500D3A553 /* traml5.svg */,
+				D734120018B4DE5500D3A553 /* transilien.svg */,
+				D734120118B4DE5500D3A553 /* transilienH.svg */,
+				D734120218B4DE5500D3A553 /* transilienJ.svg */,
+				D734120318B4DE5500D3A553 /* transilienK.svg */,
+				D734120418B4DE5500D3A553 /* transilienL.svg */,
+				D734120518B4DE5500D3A553 /* transilienN.svg */,
+				D734120618B4DE5500D3A553 /* transilienP.svg */,
+				D734120718B4DE5500D3A553 /* transilienR.svg */,
+				D734120818B4DE5500D3A553 /* transilienU.svg */,
+			);
+			name = SVGs;
+			path = ../../../SVGs;
+			sourceTree = "<group>";
+		};
+		D734123118B4DF3700D3A553 /* libSVG */ = {
+			isa = PBXGroup;
+			children = (
+				D734123218B4DF3700D3A553 /* Headers */,
+				D73412B018B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a */,
+			);
+			path = libSVG;
+			sourceTree = "<group>";
+		};
+		D734123218B4DF3700D3A553 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D734123318B4DF3700D3A553 /* AppleSucksDOMImplementation.h */,
+				D734123418B4DF3700D3A553 /* Attr.h */,
+				D734123518B4DF3700D3A553 /* BaseClassForAllSVGBasicShapes.h */,
+				D734123618B4DF3700D3A553 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h */,
+				D734123718B4DF3700D3A553 /* CALayer+RecursiveClone.h */,
+				D734123818B4DF3700D3A553 /* CALayerExporter.h */,
+				D734123918B4DF3700D3A553 /* CALayerWithChildHitTest.h */,
+				D734123A18B4DF3700D3A553 /* CAShapeLayerWithHitTest.h */,
+				D734123B18B4DF3700D3A553 /* CDATASection.h */,
+				D734123C18B4DF3700D3A553 /* CGPathAdditions.h */,
+				D734123D18B4DF3700D3A553 /* CharacterData.h */,
+				D734123E18B4DF3700D3A553 /* Comment.h */,
+				D734123F18B4DF3700D3A553 /* ContextFilterLogFormatter.h */,
+				D734124018B4DF3700D3A553 /* ConverterSVGToCALayer.h */,
+				D734124118B4DF3700D3A553 /* CSSPrimitiveValue.h */,
+				D734124218B4DF3700D3A553 /* CSSRule.h */,
+				D734124318B4DF3700D3A553 /* CSSRuleList+Mutable.h */,
+				D734124418B4DF3700D3A553 /* CSSRuleList.h */,
+				D734124518B4DF3700D3A553 /* CSSStyleDeclaration.h */,
+				D734124618B4DF3700D3A553 /* CSSStyleRule.h */,
+				D734124718B4DF3700D3A553 /* CSSStyleSheet.h */,
+				D734124818B4DF3700D3A553 /* CSSValue.h */,
+				D734124918B4DF3700D3A553 /* CSSValue_ForSubclasses.h */,
+				D734124A18B4DF3700D3A553 /* CSSValueList.h */,
+				D734124B18B4DF3700D3A553 /* DDAbstractDatabaseLogger.h */,
+				D734124C18B4DF3700D3A553 /* DDASLLogger.h */,
+				D734124D18B4DF3700D3A553 /* DDFileLogger.h */,
+				D734124E18B4DF3700D3A553 /* DDLog.h */,
+				D734124F18B4DF3700D3A553 /* DDTTYLogger.h */,
+				D734125018B4DF3700D3A553 /* DispatchQueueLogFormatter.h */,
+				D734125118B4DF3700D3A553 /* Document+Mutable.h */,
+				D734125218B4DF3700D3A553 /* Document.h */,
+				D734125318B4DF3700D3A553 /* DocumentCSS.h */,
+				D734125418B4DF3700D3A553 /* DocumentFragment.h */,
+				D734125518B4DF3700D3A553 /* DocumentStyle.h */,
+				D734125618B4DF3700D3A553 /* DocumentType.h */,
+				D734125718B4DF3700D3A553 /* DOMGlobalSettings.h */,
+				D734125818B4DF3700D3A553 /* DOMHelperUtilities.h */,
+				D734125918B4DF3700D3A553 /* Element.h */,
+				D734125A18B4DF3700D3A553 /* EntityReference.h */,
+				D734125B18B4DF3700D3A553 /* MediaList.h */,
+				D734125C18B4DF3700D3A553 /* NamedNodeMap.h */,
+				D734125D18B4DF3700D3A553 /* NamedNodeMap_Iterable.h */,
+				D734125E18B4DF3700D3A553 /* Node+Mutable.h */,
+				D734125F18B4DF3700D3A553 /* Node.h */,
+				D734126018B4DF3700D3A553 /* NodeList+Mutable.h */,
+				D734126118B4DF3700D3A553 /* NodeList.h */,
+				D734126218B4DF3700D3A553 /* NSCharacterSet+SVGKExtensions.h */,
+				D734126318B4DF3700D3A553 /* ProcessingInstruction.h */,
+				D734126418B4DF3700D3A553 /* StyleSheet.h */,
+				D734126518B4DF3700D3A553 /* StyleSheetList.h */,
+				D734126618B4DF3700D3A553 /* SVGAngle.h */,
+				D734126718B4DF3700D3A553 /* SVGAnimatedPreserveAspectRatio.h */,
+				D734126818B4DF3700D3A553 /* SVGCircleElement.h */,
+				D734126918B4DF3700D3A553 /* SVGDefsElement.h */,
+				D734126A18B4DF3700D3A553 /* SVGDescriptionElement.h */,
+				D734126B18B4DF3700D3A553 /* SVGDocument.h */,
+				D734126C18B4DF3700D3A553 /* SVGDocument_Mutable.h */,
+				D734126D18B4DF3700D3A553 /* SVGElement.h */,
+				D734126E18B4DF3700D3A553 /* SVGElement_ForParser.h */,
+				D734126F18B4DF3700D3A553 /* SVGElementInstance.h */,
+				D734127018B4DF3700D3A553 /* SVGElementInstance_Mutable.h */,
+				D734127118B4DF3700D3A553 /* SVGElementInstanceList.h */,
+				D734127218B4DF3700D3A553 /* SVGElementInstanceList_Internal.h */,
+				D734127318B4DF3700D3A553 /* SVGEllipseElement.h */,
+				D734127418B4DF3700D3A553 /* SVGFitToViewBox.h */,
+				D734127518B4DF3700D3A553 /* SVGGElement.h */,
+				D734127618B4DF3700D3A553 /* SVGGradientElement.h */,
+				D734127718B4DF3700D3A553 /* SVGGradientLayer.h */,
+				D734127818B4DF3700D3A553 /* SVGGradientStop.h */,
+				D734127918B4DF3700D3A553 /* SVGGroupElement.h */,
+				D734127A18B4DF3700D3A553 /* SVGHelperUtilities.h */,
+				D734127B18B4DF3700D3A553 /* SVGImageElement.h */,
+				D734127C18B4DF3700D3A553 /* SVGKExporterNSData.h */,
+				D734127D18B4DF3700D3A553 /* SVGKExporterUIImage.h */,
+				D734127E18B4DF3700D3A553 /* SVGKFastImageView.h */,
+				D734127F18B4DF3700D3A553 /* SVGKImage+CGContext.h */,
+				D734128018B4DF3700D3A553 /* SVGKImage.h */,
+				D734128118B4DF3700D3A553 /* SVGKImageView.h */,
+				D734128218B4DF3700D3A553 /* SVGKit.h */,
+				D734128318B4DF3700D3A553 /* SVGKLayer.h */,
+				D734128418B4DF3700D3A553 /* SVGKLayeredImageView.h */,
+				D734128518B4DF3700D3A553 /* SVGKParser.h */,
+				D734128618B4DF3700D3A553 /* SVGKParserDefsAndUse.h */,
+				D734128718B4DF3700D3A553 /* SVGKParserDOM.h */,
+				D734128818B4DF3700D3A553 /* SVGKParseResult.h */,
+				D734128918B4DF3700D3A553 /* SVGKParserExtension.h */,
+				D734128A18B4DF3700D3A553 /* SVGKParserGradient.h */,
+				D734128B18B4DF3700D3A553 /* SVGKParserPatternsAndGradients.h */,
+				D734128C18B4DF3700D3A553 /* SVGKParserStyles.h */,
+				D734128D18B4DF3700D3A553 /* SVGKParserSVG.h */,
+				D734128E18B4DF3700D3A553 /* SVGKPattern.h */,
+				D734128F18B4DF3700D3A553 /* SVGKPointsAndPathsParser.h */,
+				D734129018B4DF3700D3A553 /* SVGKSource.h */,
+				D734129118B4DF3700D3A553 /* SVGKSourceLocalFile.h */,
+				D734129218B4DF3700D3A553 /* SVGKSourceString.h */,
+				D734129318B4DF3700D3A553 /* SVGKSourceURL.h */,
+				D734129418B4DF3700D3A553 /* SVGLength.h */,
+				D734129518B4DF3700D3A553 /* SVGLineElement.h */,
+				D734129618B4DF3700D3A553 /* SVGMatrix.h */,
+				D734129718B4DF3700D3A553 /* SVGNumber.h */,
+				D734129818B4DF3700D3A553 /* SVGPathElement.h */,
+				D734129918B4DF3700D3A553 /* SVGPoint.h */,
+				D734129A18B4DF3700D3A553 /* SVGPolygonElement.h */,
+				D734129B18B4DF3700D3A553 /* SVGPolylineElement.h */,
+				D734129C18B4DF3700D3A553 /* SVGPreserveAspectRatio.h */,
+				D734129D18B4DF3700D3A553 /* SVGRect.h */,
+				D734129E18B4DF3700D3A553 /* SVGRectElement.h */,
+				D734129F18B4DF3700D3A553 /* SVGStylable.h */,
+				D73412A018B4DF3700D3A553 /* SVGStyleCatcher.h */,
+				D73412A118B4DF3700D3A553 /* SVGStyleElement.h */,
+				D73412A218B4DF3700D3A553 /* SVGSVGElement.h */,
+				D73412A318B4DF3700D3A553 /* SVGSVGElement_Mutable.h */,
+				D73412A418B4DF3700D3A553 /* SVGTextContentElement.h */,
+				D73412A518B4DF3700D3A553 /* SVGTextElement.h */,
+				D73412A618B4DF3700D3A553 /* SVGTextPositioningElement.h */,
+				D73412A718B4DF3700D3A553 /* SVGTextPositioningElement_Mutable.h */,
+				D73412A818B4DF3700D3A553 /* SVGTitleElement.h */,
+				D73412A918B4DF3700D3A553 /* SVGTransform.h */,
+				D73412AA18B4DF3700D3A553 /* SVGTransformable.h */,
+				D73412AB18B4DF3700D3A553 /* SVGUseElement.h */,
+				D73412AC18B4DF3700D3A553 /* SVGUseElement_Mutable.h */,
+				D73412AD18B4DF3700D3A553 /* SVGUtils.h */,
+				D73412AE18B4DF3700D3A553 /* SVGViewSpec.h */,
+				D73412AF18B4DF3700D3A553 /* Text.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +699,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D734120A18B4DE5500D3A553 /* metro.svg in Resources */,
+				D734121A18B4DE5500D3A553 /* metrol9.svg in Resources */,
+				D73411D918B4DE4E00D3A553 /* metrol4.svg.png in Resources */,
+				D73411D418B4DE4E00D3A553 /* metrol13.svg.png in Resources */,
+				D73411DD18B4DE4E00D3A553 /* metrol7b.svg.png in Resources */,
+				D734122618B4DE5500D3A553 /* traml4.svg in Resources */,
+				D734120918B4DE5500D3A553 /* .png in Resources */,
+				D73411D018B4DE4E00D3A553 /* metrol1.svg.png in Resources */,
 				D734119F18B4DDB300D3A553 /* Images.xcassets in Resources */,
+				D73411DA18B4DE4E00D3A553 /* metrol5.svg.png in Resources */,
+				D734121918B4DE5500D3A553 /* metrol8.svg in Resources */,
+				D73411D318B4DE4E00D3A553 /* metrol12.svg.png in Resources */,
+				D734122D18B4DE5500D3A553 /* transilienN.svg in Resources */,
+				D734121718B4DE5500D3A553 /* metrol7.svg in Resources */,
+				D73411D218B4DE4E00D3A553 /* metrol11.svg.png in Resources */,
+				D734121C18B4DE5500D3A553 /* rerlA.svg in Resources */,
+				D734122818B4DE5500D3A553 /* transilien.svg in Resources */,
+				D734122E18B4DE5500D3A553 /* transilienP.svg in Resources */,
+				D734121818B4DE5500D3A553 /* metrol7b.svg in Resources */,
+				D734121218B4DE5500D3A553 /* metrol3.svg in Resources */,
+				D734122718B4DE5500D3A553 /* traml5.svg in Resources */,
+				D734121118B4DE5500D3A553 /* metrol2.svg in Resources */,
+				D734121B18B4DE5500D3A553 /* rer.svg in Resources */,
+				D73411D818B4DE4E00D3A553 /* metrol3b.svg.png in Resources */,
+				D734121418B4DE5500D3A553 /* metrol4.svg in Resources */,
 				D734119118B4DDB300D3A553 /* InfoPlist.strings in Resources */,
 				D734119A18B4DDB300D3A553 /* Main.storyboard in Resources */,
+				D73411DC18B4DE4E00D3A553 /* metrol7.svg.png in Resources */,
+				D734122918B4DE5500D3A553 /* transilienH.svg in Resources */,
+				D734121518B4DE5500D3A553 /* metrol5.svg in Resources */,
+				D734122A18B4DE5500D3A553 /* transilienJ.svg in Resources */,
+				D734122418B4DE5500D3A553 /* traml3a.svg in Resources */,
+				D73411DB18B4DE4E00D3A553 /* metrol6.svg.png in Resources */,
+				D734122C18B4DE5500D3A553 /* transilienL.svg in Resources */,
+				D734120C18B4DE5500D3A553 /* metrol10.svg in Resources */,
+				D734121618B4DE5500D3A553 /* metrol6.svg in Resources */,
+				D73411D618B4DE4E00D3A553 /* metrol2.svg.png in Resources */,
+				D73411DF18B4DE4E00D3A553 /* metrol9.svg.png in Resources */,
+				D73411D518B4DE4E00D3A553 /* metrol14.svg.png in Resources */,
+				D734121E18B4DE5500D3A553 /* rerlC.svg in Resources */,
+				D734121D18B4DE5500D3A553 /* rerlB.svg in Resources */,
+				D734122218B4DE5500D3A553 /* traml1.svg in Resources */,
+				D734122018B4DE5500D3A553 /* rerlE.svg in Resources */,
+				D73411D118B4DE4E00D3A553 /* metrol10.svg.png in Resources */,
+				D734122118B4DE5500D3A553 /* tram.svg in Resources */,
+				D734121018B4DE5500D3A553 /* metrol14.svg in Resources */,
+				D734123018B4DE5500D3A553 /* transilienU.svg in Resources */,
+				D734120B18B4DE5500D3A553 /* metrol1.svg in Resources */,
+				D734122318B4DE5500D3A553 /* traml2.svg in Resources */,
+				D734122F18B4DE5500D3A553 /* transilienR.svg in Resources */,
+				D734120E18B4DE5500D3A553 /* metrol12.svg in Resources */,
+				D73411D718B4DE4E00D3A553 /* metrol3.svg.png in Resources */,
+				D734121318B4DE5500D3A553 /* metrol3b.svg in Resources */,
+				D734120F18B4DE5500D3A553 /* metrol13.svg in Resources */,
+				D73411DE18B4DE4E00D3A553 /* metrol8.svg.png in Resources */,
+				D734121F18B4DE5500D3A553 /* rerlD.svg in Resources */,
+				D734122518B4DE5500D3A553 /* traml3b.svg in Resources */,
+				D734120D18B4DE5500D3A553 /* metrol11.svg in Resources */,
+				D734122B18B4DE5500D3A553 /* transilienK.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +779,7 @@
 				D734119718B4DDB300D3A553 /* TMVAppDelegate.m in Sources */,
 				D734119318B4DDB300D3A553 /* main.m in Sources */,
 				D734119D18B4DDB300D3A553 /* TMVViewController.m in Sources */,
+				D73411BE18B4DE4500D3A553 /* PMMetroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +909,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMetroView/TestMetroView-Prefix.pch";
 				INFOPLIST_FILE = "TestMetroView/TestMetroView-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/teriiehina/Programmes/ios/teriiehina/PMMetroView/Experiments/TestMetroView/libSVG,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +926,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestMetroView/TestMetroView-Prefix.pch";
 				INFOPLIST_FILE = "TestMetroView/TestMetroView-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/teriiehina/Programmes/ios/teriiehina/PMMetroView/Experiments/TestMetroView/libSVG,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +996,7 @@
 				D73411B718B4DDB400D3A553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D73411B818B4DDB400D3A553 /* Build configuration list for PBXNativeTarget "TestMetroViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +1005,7 @@
 				D73411BA18B4DDB400D3A553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
