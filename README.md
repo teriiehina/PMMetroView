@@ -11,6 +11,15 @@ should be fast and painless. Thanks to CodePaint, this is almost possible.
 
 Next step should be that CodePaint gives us size-independent code.
 
+# How to use it ?
+
+As PMMetroView is a simple UIView subclass, you shouldn't have too much trouble to use it. In case of you like to program with a (big) glass of fine scotch at the side of your keyboard, please let me walk you throught:
+
+  - download/clone this repo
+  - add `PMMetroView.h` and `PMMetroView.m` in your project (feel free to check the "copy items into the destination group's folder" checkbox)
+  - init the PMMetroView by giving it a `frame` and a `LMLine`
+  - don't forget to call `setNeedsDisplay` on you PMMetroView if you change its frame
+
 # Comparisons
 
 Those are very simple tests for the moment being. Please feel free to add more
