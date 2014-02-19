@@ -3,6 +3,14 @@ PMMetroView
 
 A UIView subclass to display the parisian subway lines' logo without any image files
 
+# Why ?
+
+Because I wanted to think about a way to use code to draw images for quite a while.
+It should not be cumbersome to use. Thus converting an image to code or updating it
+should be fast and painless. Thanks to CodePaint, this is almost possible.
+
+Next step should be that CodePaint gives us size-independent code.
+
 # Comparisons
 
 Those are very simple tests for the moment being. Please feel free to add more
@@ -14,6 +22,8 @@ Those are very simple tests for the moment being. Please feel free to add more
 And because of what Da Vinci said:
 
 ![A chart comparing size differences between SVG, Objective-C and PNG](./Experiments/chart01.png "Comparison size differences between SVG, Objective-C and PNG")
+
+Next steps should be to compare time from init to draw.
 
 # Protocol
 
