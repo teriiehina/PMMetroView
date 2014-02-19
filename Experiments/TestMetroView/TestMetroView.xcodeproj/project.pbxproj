@@ -79,6 +79,9 @@
 		D734122F18B4DE5500D3A553 /* transilienR.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120718B4DE5500D3A553 /* transilienR.svg */; };
 		D734123018B4DE5500D3A553 /* transilienU.svg in Resources */ = {isa = PBXBuildFile; fileRef = D734120818B4DE5500D3A553 /* transilienU.svg */; };
 		D73412B118B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B018B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a */; };
+		D73412B318B4E0F800D3A553 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B218B4E0F800D3A553 /* CoreText.framework */; };
+		D73412B518B4E10100D3A553 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B418B4E10100D3A553 /* libxml2.dylib */; };
+		D73412B718B4E10D00D3A553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B618B4E10D00D3A553 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,6 +298,9 @@
 		D73412AE18B4DF3700D3A553 /* SVGViewSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGViewSpec.h; sourceTree = "<group>"; };
 		D73412AF18B4DF3700D3A553 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
 		D73412B018B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSVGKit-iOS.1.2.0pre.a"; sourceTree = "<group>"; };
+		D73412B218B4E0F800D3A553 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D73412B418B4E10100D3A553 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D73412B618B4E10D00D3A553 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,10 +308,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D734118918B4DDB300D3A553 /* CoreGraphics.framework in Frameworks */,
-				D734118B18B4DDB300D3A553 /* UIKit.framework in Frameworks */,
+				D73412B518B4E10100D3A553 /* libxml2.dylib in Frameworks */,
 				D73412B118B4DF3700D3A553 /* libSVGKit-iOS.1.2.0pre.a in Frameworks */,
+				D734118918B4DDB300D3A553 /* CoreGraphics.framework in Frameworks */,
+				D73412B318B4E0F800D3A553 /* CoreText.framework in Frameworks */,
 				D734118718B4DDB300D3A553 /* Foundation.framework in Frameworks */,
+				D73412B718B4E10D00D3A553 /* QuartzCore.framework in Frameworks */,
+				D734118B18B4DDB300D3A553 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +353,12 @@
 		D734118518B4DDB300D3A553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D73412B418B4E10100D3A553 /* libxml2.dylib */,
 				D734123118B4DF3700D3A553 /* libSVG */,
-				D734118618B4DDB300D3A553 /* Foundation.framework */,
 				D734118818B4DDB300D3A553 /* CoreGraphics.framework */,
+				D73412B218B4E0F800D3A553 /* CoreText.framework */,
+				D734118618B4DDB300D3A553 /* Foundation.framework */,
+				D73412B618B4E10D00D3A553 /* QuartzCore.framework */,
 				D734118A18B4DDB300D3A553 /* UIKit.framework */,
 				D73411A518B4DDB400D3A553 /* XCTest.framework */,
 			);
@@ -913,6 +925,7 @@
 					"$(inherited)",
 					/Users/teriiehina/Programmes/ios/teriiehina/PMMetroView/Experiments/TestMetroView/libSVG,
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -930,6 +943,7 @@
 					"$(inherited)",
 					/Users/teriiehina/Programmes/ios/teriiehina/PMMetroView/Experiments/TestMetroView/libSVG,
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
