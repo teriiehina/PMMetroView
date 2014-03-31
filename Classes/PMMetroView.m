@@ -6,25 +6,18 @@
 //  Copyright (c) 2014 Peter Meuel. All rights reserved.
 //
 
-
-
-#define CURVE_PATH(path,x1,y1,x2,y2,x3,y3)    [path addCurveToPoint: CGPointMake(x1 * ratioW,y1 * ratioH) controlPoint1: CGPointMake(x2 * ratioW,y2 * ratioH) controlPoint2: CGPointMake(x3 * ratioW,y3 * ratioH)]
-
-#define MOVE_PATH_TO(path , x , y)            [path moveToPoint: CGPointMake(x * ratioW , y * ratioH)];
-
-#define LINE_PATH_TO(path , x , y)            [path addLineToPoint: CGPointMake(x * ratioW , y * ratioH)];
-
-#define RGBA(r,g,b,a)                         [UIColor colorWithRed:r green:g blue:b alpha:a]
-
-#define MAKE_RATIOS(rect, scale)              CGFloat ratioW = rect.size.width / scale; CGFloat ratioH = rect.size.height / scale;
-
 #import "PMMetroView.h"
+#import "PMMetroView+Tram.h"
+
 
 @interface PMMetroView ()
 
+
 @property (nonatomic , assign) LMLine line;
 
+
 @end
+
 
 @implementation PMMetroView
 
@@ -58,6 +51,14 @@
     case PARIS_M12: [self drawM12Rect:rect]; break;
     case PARIS_M13: [self drawM13Rect:rect]; break;
     case PARIS_M14: [self drawM14Rect:rect]; break;
+    
+    case PARIS_T1:  [self drawT1Rect:rect]; break;
+    case PARIS_T2:  [self drawT2Rect:rect]; break;
+    case PARIS_T3a: [self drawT3aRect:rect]; break;
+    case PARIS_T3b: [self drawT3bRect:rect]; break;
+    case PARIS_T4:  [self drawT4Rect:rect]; break;
+    case PARIS_T5:  [self drawT5Rect:rect]; break;
+
       
     default:
       break;
@@ -68,7 +69,7 @@
 
 -(void)drawM1Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color1 = RGBA( 0.1, 0.089, 0.095, 1);
@@ -111,7 +112,7 @@
 
 - (void)drawM2Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color  = RGBA( 0.037 , 0.312 , 0.619 , 1.000);
@@ -157,7 +158,7 @@
 
 - (void)drawM3Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color0 = RGBA( 0.555, 0.53, 0.083, 1);
@@ -213,7 +214,7 @@
 
 - (void)drawM3bRect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color3 = RGBA( 0.537, 0.796, 0.839, 1);
@@ -374,7 +375,7 @@
 - (void)drawM4Rect:(CGRect)rect
 {
   
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color0 = RGBA( 0.683, 0.158, 0.48, 1);
@@ -420,7 +421,7 @@
 
 - (void)drawM5Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color = RGBA( 0.923, 0.488, 0.205, 1);
@@ -463,7 +464,7 @@
 
 - (void)drawM6Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color3 = RGBA( 0.103, 0.092, 0.095, 1);
@@ -478,7 +479,7 @@
   //// Bezier Drawing
   UIBezierPath* bezierPath = [UIBezierPath bezierPath];
   
-  MOVE_PATH_TO(bezierPath , 672.16 , 570.56)
+  MOVE_PATH_TO(bezierPath , 672.16 , 570.56);
   
   CURVE_PATH(bezierPath , 515.05 , 413.55 , 672.16 , 471.25 , 601.64 , 413.55);
   CURVE_PATH(bezierPath , 407.26 , 449.62 , 459.1  , 413.55 , 425.16 , 433.84);
@@ -513,7 +514,7 @@
 
 - (void)drawM7Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color5 = RGBA( 0.103, 0.092, 0.095, 1);
@@ -550,7 +551,7 @@
 
 - (void)drawM7bRect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color7 = RGBA( 0.103, 0.092, 0.095, 1);
@@ -687,7 +688,7 @@
 
 - (void)drawM8Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color9  = RGBA( 0.756, 0.602, 0.769, 1);
@@ -744,7 +745,7 @@
 
 - (void)drawM9Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color11 = RGBA( 0.797, 0.755, 0.032, 1);
@@ -795,7 +796,7 @@
 
 - (void)drawM10Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color13 = RGBA( 0.864, 0.649, 0.121, 1);
@@ -852,7 +853,7 @@
 
 - (void)drawM11Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
 
   //// Color Declarations
   UIColor* color17 = RGBA( 1, 1, 1, 1);
@@ -907,7 +908,7 @@
 
 - (void)drawM12Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color19 = RGBA( 0.056, 0.429, 0.222, 1);
@@ -966,7 +967,7 @@
 
 - (void)drawM13Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color21 = RGBA( 0.537, 0.796, 0.839, 1);
@@ -1030,7 +1031,7 @@
 
 - (void)drawM14Rect:(CGRect)rect
 {
-  MAKE_RATIOS(self.frame, 1000)
+  MAKE_RATIOS(self.frame, 1000);
   
   //// Color Declarations
   UIColor* color23 = RGBA( 1.000, 1.000, 1.000, 1.000);
