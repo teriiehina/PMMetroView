@@ -107,9 +107,6 @@
   
   [color32 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -163,9 +160,6 @@
   
   [color34 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -222,9 +216,6 @@
   
   [color36 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -283,9 +274,6 @@
   
   [color39 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -335,9 +323,6 @@
   
   [color43 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -401,9 +386,6 @@
   
   [color46 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -474,9 +456,6 @@
   
   [color48 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -553,9 +532,6 @@
   
   [color52 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
@@ -613,15 +589,7 @@
   
   [color54 setFill];
   [bezier2Path fill];
-  
-  
-
 }
-
-
-
-
-
 
 
 @end

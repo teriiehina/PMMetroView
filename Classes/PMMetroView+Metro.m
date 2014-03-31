@@ -60,9 +60,6 @@
   
   [color28 setFill];
   [bezier2Path fill];
-  
-  
-  
 }
 
 - (void)drawM1Rect:(CGRect)rect
@@ -108,6 +105,7 @@
   [bezierPath fill];
 }
 
+
 - (void)drawM2Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
@@ -151,8 +149,8 @@
   
   [color2 setFill];
   [bezierPath fill];
-  
 }
+
 
 - (void)drawM3Rect:(CGRect)rect
 {
@@ -367,8 +365,8 @@
   
   [color4 setFill];
   [bezier4Path fill];
-  
 }
+
 
 - (void)drawM4Rect:(CGRect)rect
 {
@@ -417,6 +415,7 @@
   [bezierPath fill];
 }
 
+
 - (void)drawM5Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
@@ -459,6 +458,7 @@
   [color2 setFill];
   [bezierPath fill];
 }
+
 
 - (void)drawM6Rect:(CGRect)rect
 {
@@ -510,6 +510,7 @@
   [bezierPath fill];
 }
 
+
 - (void)drawM7Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
@@ -546,6 +547,7 @@
   [color5 setFill];
   [bezierPath fill];
 }
+
 
 - (void)drawM7bRect:(CGRect)rect
 {
@@ -679,10 +681,8 @@
   
   [color7 setFill];
   [bezier5Path fill];
-  
-  
-  
 }
+
 
 - (void)drawM8Rect:(CGRect)rect
 {
@@ -736,10 +736,8 @@
   
   [color10 setFill];
   [bezierPath fill];
-  
-  
-  
 }
+
 
 - (void)drawM9Rect:(CGRect)rect
 {
@@ -787,10 +785,8 @@
   
   [color12 setFill];
   [bezierPath fill];
-  
-  
-  
 }
+
 
 - (void)drawM10Rect:(CGRect)rect
 {
@@ -844,10 +840,8 @@
   
   [color14 setFill];
   [bezier2Path fill];
-  
-  
-  
 }
+
 
 - (void)drawM11Rect:(CGRect)rect
 {
@@ -899,10 +893,8 @@
   
   [color17 setFill];
   [bezier2Path fill];
-  
-  
-  
 }
+
 
 - (void)drawM12Rect:(CGRect)rect
 {
@@ -958,10 +950,8 @@
   
   [color20 setFill];
   [bezier2Path fill];
-  
-  
-  
 }
+
 
 - (void)drawM13Rect:(CGRect)rect
 {
@@ -1022,10 +1012,8 @@
   
   [color22 setFill];
   [bezier2Path fill];
-  
-  
-  
 }
+
 
 - (void)drawM14Rect:(CGRect)rect
 {
@@ -1085,9 +1073,6 @@
   
   [color23 setFill];
   [bezier2Path fill];
-  
-  
-  
 }
 
 

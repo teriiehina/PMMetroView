@@ -8,17 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-// copy-paste those for easy replacing using regex in xcode
-
-//\[(.*) addCurveToPoint: CGPointMake\((.*), (.*)\) controlPoint1: CGPointMake\((.*), (.*)\) controlPoint2: CGPointMake\((.*), (.*)\)\];
-//CURVE_PATH($1 , $2 , $3 , $4 , $5 , $6 , $7);
-
-//\[(.*) addLineToPoint: CGPointMake\((.*), (.*)\)]\;
-//LINE_PATH_TO( $1 , $2 , $3 );
-
-//\[(.*) moveToPoint: CGPointMake\((.*), (.*)\)\];
-//MOVE_PATH_TO( $1 , $2 , $3);
-
 #define CURVE_PATH(path,x1,y1,x2,y2,x3,y3)    [path addCurveToPoint: CGPointMake(x1 * ratioW,y1 * ratioH) controlPoint1: CGPointMake(x2 * ratioW,y2 * ratioH) controlPoint2: CGPointMake(x3 * ratioW,y3 * ratioH)]
 
 #define MOVE_PATH_TO(path , x , y)            [path moveToPoint: CGPointMake(x * ratioW , y * ratioH)]
@@ -76,6 +65,18 @@ typedef NS_ENUM(NSUInteger, LMLine)
 };
 
 @interface PMMetroView : UIView
+
+// We let you use this property in case of you are
+// an ecologist and want to reuse an already allocated
+// PMMetroView
+//
+// When you change this property, we call `setNeedsDisplay`
+// for you. No need for thanks. 
+
+@property (nonatomic , assign) LMLine line;
+
+
+// pretty self-explanatory, no ?
 
 - (id)initWithFrame:(CGRect)frame lineName:(LMLine)pLineName;
 

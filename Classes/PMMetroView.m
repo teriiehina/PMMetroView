@@ -7,19 +7,10 @@
 //
 
 #import "PMMetroView.h"
-
 #import "PMMetroView+Metro.h"
 #import "PMMetroView+Tram.h"
 #import "PMMetroView+RER.h"
 #import "PMMetroView+Transilien.h"
-
-@interface PMMetroView ()
-
-
-@property (nonatomic , assign) LMLine line;
-
-
-@end
 
 
 @implementation PMMetroView
@@ -31,6 +22,13 @@
     
   self.line = pLine;
   return self;
+}
+
+- (void)setLine:(LMLine)line
+{
+  _line = line;
+  
+  [self setNeedsDisplay];
 }
 
 
@@ -82,8 +80,7 @@
     case PARIS_TRANS_R:  [self drawTransRRect:rect]; break;
     case PARIS_TRANS_U:  [self drawTransURect:rect]; break;
       
-    default:
-      break;
+    default: break;
   }
 
 }

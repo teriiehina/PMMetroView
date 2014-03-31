@@ -47,13 +47,10 @@
   
   [color30 setFill];
   [bezierPath fill];
-  
-  
-  
 }
 
 
--(void)drawT1Rect:(CGRect)rect
+- (void)drawT1Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -98,7 +95,7 @@
 }
 
 
--(void)drawT2Rect:(CGRect)rect
+- (void)drawT2Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -144,10 +141,9 @@
   bezierPath.miterLimit = 4;
   
   [color setFill];
-  [bezierPath fill];
-}
+  [bezierPath fill];}
 
--(void)drawT3aRect:(CGRect)rect
+- (void)drawT3aRect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -194,7 +190,6 @@
   
   [color6 setFill];
   [bezierPath fill];
-  
   
   //// Bezier 2 Drawing
   UIBezierPath* bezier2Path = [UIBezierPath bezierPath];
@@ -243,13 +238,10 @@
   
   [color6 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
--(void)drawT3bRect:(CGRect)rect
+- (void)drawT3bRect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -330,13 +322,10 @@
   
   [color9 setFill];
   [bezier2Path fill];
-  
-  
-
 }
 
 
--(void)drawT4Rect:(CGRect)rect
+- (void)drawT4Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -382,13 +371,10 @@
   
   [color12 setFill];
   [bezierPath fill];
-  
-  
-
 }
 
 
--(void)drawT5Rect:(CGRect)rect
+- (void)drawT5Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -428,9 +414,6 @@
   
   [color14 setFill];
   [bezierPath fill];
-  
-  
-
 }
 
 

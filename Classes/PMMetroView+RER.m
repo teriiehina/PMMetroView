@@ -123,7 +123,7 @@
 }
 
 
--(void)drawRERARect:(CGRect)rect
+- (void)drawRERARect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -167,13 +167,10 @@
   
   [color17 setFill];
   [bezierPath fill];
-  
-  
-
 }
 
 
--(void)drawRERBRect:(CGRect)rect
+- (void)drawRERBRect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -223,12 +220,10 @@
   
   [color19 setFill];
   [bezierPath fill];
-  
-  
-
 }
 
--(void)drawRERCRect:(CGRect)rect
+
+- (void)drawRERCRect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -271,7 +266,7 @@
 }
 
 
--(void)drawRERDRect:(CGRect)rect
+- (void)drawRERDRect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -311,12 +306,10 @@
   
   [color25 setFill];
   [bezierPath fill];
-  
-  
-
 }
 
--(void)drawRERERect:(CGRect)rect
+
+- (void)drawRERERect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
 
@@ -355,9 +348,6 @@
   
   [color26 setFill];
   [bezierPath fill];
-  
-  
-
 }
 
 

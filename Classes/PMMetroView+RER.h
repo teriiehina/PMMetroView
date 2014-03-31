@@ -11,14 +11,14 @@
 
 @interface PMMetroView (RER)
 
+ 
 - (void)drawRERRect:(CGRect)rect;
 
--(void)drawRERARect:(CGRect)rect;
--(void)drawRERBRect:(CGRect)rect;
--(void)drawRERCRect:(CGRect)rect;
--(void)drawRERDRect:(CGRect)rect;
--(void)drawRERERect:(CGRect)rect;
-
+- (void)drawRERARect:(CGRect)rect;
+- (void)drawRERBRect:(CGRect)rect;
+- (void)drawRERCRect:(CGRect)rect;
+- (void)drawRERDRect:(CGRect)rect;
+- (void)drawRERERect:(CGRect)rect;
 
 
 @end
