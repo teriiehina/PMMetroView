@@ -79,17 +79,18 @@ NSUInteger currentRow = 0;
 {
   CGFloat     spacing     = padding + viewSize;
   
-  LMLine      lines[22]   = { PARIS_M1  , PARIS_M2  , PARIS_M3  , PARIS_M3b ,
-                              PARIS_M4  , PARIS_M5  , PARIS_M6  , PARIS_M7  ,
-                              PARIS_M7b , PARIS_M8  , PARIS_M9  , PARIS_M10 ,
-                              PARIS_M11 , PARIS_M12 , PARIS_M13 , PARIS_M14 ,
-                              PARIS_T1  , PARIS_T2  , PARIS_T3a , PARIS_T3b ,
-                              PARIS_T4  , PARIS_T5 };
+  LMLine      lines[27]   = { PARIS_M1    , PARIS_M2    , PARIS_M3    , PARIS_M3b   ,
+                              PARIS_M4    , PARIS_M5    , PARIS_M6    , PARIS_M7    ,
+                              PARIS_M7b   , PARIS_M8    , PARIS_M9    , PARIS_M10   ,
+                              PARIS_M11   , PARIS_M12   , PARIS_M13   , PARIS_M14   ,
+                              PARIS_T1    , PARIS_T2    , PARIS_T3a   , PARIS_T3b   ,
+                              PARIS_T4    , PARIS_T5    , PARIS_RER_A , PARIS_RER_B ,
+                              PARIS_RER_C , PARIS_RER_D , PARIS_RER_E };
   
   NSUInteger row, col;
   NSUInteger imagesByRow = 4;
   
-  for (int lineIndex = 0; lineIndex < 22; lineIndex++)
+  for (int lineIndex = 0; lineIndex < 27; lineIndex++)
   {
     row = lineIndex / imagesByRow;
     col = lineIndex % imagesByRow;
@@ -107,22 +108,6 @@ NSUInteger currentRow = 0;
     [self.scrollView addSubview:view];
 
   }
-  
-//  for (row = 0; row < rowsNumber; row++)
-//  {
-//    for (NSUInteger col = 0; col < colsNumber; col++)
-//    {
-//      LMLine line = lines[row * rowsNumber + col];
-//      CGRect rect = CGRectMake(col * spacing + initalX , (row + currentRow) * spacing + initalY , viewSize , viewSize);
-//      
-//      PMMetroView *view = [[PMMetroView alloc] initWithFrame:rect lineName:line];
-//      
-//      view.backgroundColor  = UIColor.clearColor;
-//      view.tag              = (row + currentRow) * rowsNumber + col;
-//      
-//      [self.scrollView addSubview:view];
-//    }
-//  }
   
   currentRow += row;
 }
