@@ -53,7 +53,13 @@ typedef NS_ENUM(NSUInteger, LMLine)
   PARIS_T3a,
   PARIS_T3b,
   PARIS_T4,
-  PARIS_T5
+  PARIS_T5,
+  
+  PARIS_RER_A,
+  PARIS_RER_B,
+  PARIS_RER_C,
+  PARIS_RER_D,
+  PARIS_RER_E
 };
 
 @interface PMMetroView : UIView

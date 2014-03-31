@@ -8,7 +8,7 @@
 
 #import "PMMetroView.h"
 #import "PMMetroView+Tram.h"
-
+#import "PMMetroView+RER.h"
 
 @interface PMMetroView ()
 
@@ -52,13 +52,18 @@
     case PARIS_M13: [self drawM13Rect:rect]; break;
     case PARIS_M14: [self drawM14Rect:rect]; break;
     
-    case PARIS_T1:  [self drawT1Rect:rect]; break;
-    case PARIS_T2:  [self drawT2Rect:rect]; break;
+    case PARIS_T1:  [self drawT1Rect:rect];  break;
+    case PARIS_T2:  [self drawT2Rect:rect];  break;
     case PARIS_T3a: [self drawT3aRect:rect]; break;
     case PARIS_T3b: [self drawT3bRect:rect]; break;
-    case PARIS_T4:  [self drawT4Rect:rect]; break;
-    case PARIS_T5:  [self drawT5Rect:rect]; break;
+    case PARIS_T4:  [self drawT4Rect:rect];  break;
+    case PARIS_T5:  [self drawT5Rect:rect];  break;
 
+    case PARIS_RER_A:  [self drawRERARect:rect]; break;
+    case PARIS_RER_B:  [self drawRERBRect:rect]; break;
+    case PARIS_RER_C:  [self drawRERCRect:rect]; break;
+    case PARIS_RER_D:  [self drawRERDRect:rect]; break;
+    case PARIS_RER_E:  [self drawRERERect:rect]; break;
       
     default:
       break;
