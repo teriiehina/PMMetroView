@@ -79,18 +79,21 @@ NSUInteger currentRow = 0;
 {
   CGFloat     spacing     = padding + viewSize;
   
-  LMLine      lines[27]   = { PARIS_M1    , PARIS_M2    , PARIS_M3    , PARIS_M3b   ,
-                              PARIS_M4    , PARIS_M5    , PARIS_M6    , PARIS_M7    ,
-                              PARIS_M7b   , PARIS_M8    , PARIS_M9    , PARIS_M10   ,
-                              PARIS_M11   , PARIS_M12   , PARIS_M13   , PARIS_M14   ,
-                              PARIS_T1    , PARIS_T2    , PARIS_T3a   , PARIS_T3b   ,
-                              PARIS_T4    , PARIS_T5    , PARIS_RER_A , PARIS_RER_B ,
-                              PARIS_RER_C , PARIS_RER_D , PARIS_RER_E };
+  LMLine      lines[39]   = { PARIS_METRO   , PARIS_TRAM    , PARIS_RER     , PARIS_TRANS  ,
+                              PARIS_M1      , PARIS_M2      , PARIS_M3      , PARIS_M3b    ,
+                              PARIS_M4      , PARIS_M5      , PARIS_M6      , PARIS_M7     ,
+                              PARIS_M7b     , PARIS_M8      , PARIS_M9      , PARIS_M10    ,
+                              PARIS_M11     , PARIS_M12     , PARIS_M13     , PARIS_M14    ,
+                              PARIS_T1      , PARIS_T2      , PARIS_T3a     , PARIS_T3b    ,
+                              PARIS_T4      , PARIS_T5      , PARIS_RER_A   , PARIS_RER_B  ,
+                              PARIS_RER_C   , PARIS_RER_D   , PARIS_RER_E   , PARIS_TRANS_H,
+                              PARIS_TRANS_J , PARIS_TRANS_K , PARIS_TRANS_L , PARIS_TRANS_N,
+                              PARIS_TRANS_P , PARIS_TRANS_R , PARIS_TRANS_U };
   
   NSUInteger row, col;
   NSUInteger imagesByRow = 4;
   
-  for (int lineIndex = 0; lineIndex < 27; lineIndex++)
+  for (int lineIndex = 0; lineIndex < 39; lineIndex++)
   {
     row = lineIndex / imagesByRow;
     col = lineIndex % imagesByRow;

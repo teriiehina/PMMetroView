@@ -10,6 +10,8 @@
 
 @interface PMMetroView (Tram)
 
+- (void)drawTramRect:(CGRect)rect;
+
 -(void)drawT1Rect:(CGRect)rect;
 -(void)drawT2Rect:(CGRect)rect;
 -(void)drawT3aRect:(CGRect)rect;

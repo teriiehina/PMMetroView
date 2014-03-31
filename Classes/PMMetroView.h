@@ -31,6 +31,7 @@
 
 typedef NS_ENUM(NSUInteger, LMLine)
 {
+  PARIS_METRO,
   PARIS_M1,
   PARIS_M2,
   PARIS_M3,
@@ -48,6 +49,7 @@ typedef NS_ENUM(NSUInteger, LMLine)
   PARIS_M13,
   PARIS_M14,
   
+  PARIS_TRAM,
   PARIS_T1,
   PARIS_T2,
   PARIS_T3a,
@@ -55,11 +57,22 @@ typedef NS_ENUM(NSUInteger, LMLine)
   PARIS_T4,
   PARIS_T5,
   
+  PARIS_RER,
   PARIS_RER_A,
   PARIS_RER_B,
   PARIS_RER_C,
   PARIS_RER_D,
-  PARIS_RER_E
+  PARIS_RER_E,
+  
+  PARIS_TRANS,
+  PARIS_TRANS_H,
+  PARIS_TRANS_J,
+  PARIS_TRANS_K,
+  PARIS_TRANS_L,
+  PARIS_TRANS_N,
+  PARIS_TRANS_P,
+  PARIS_TRANS_R,
+  PARIS_TRANS_U
 };
 
 @interface PMMetroView : UIView

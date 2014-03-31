@@ -84,6 +84,8 @@
 		D73412B718B4E10D00D3A553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B618B4E10D00D3A553 /* QuartzCore.framework */; };
 		D7ADABF818EA0A4300497259 /* PMMetroView+Tram.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ADABF718EA0A4300497259 /* PMMetroView+Tram.m */; };
 		D7ADABFB18EA147100497259 /* PMMetroView+RER.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ADABFA18EA147100497259 /* PMMetroView+RER.m */; };
+		D7ADABFE18EA170D00497259 /* PMMetroView+Metro.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ADABFD18EA170D00497259 /* PMMetroView+Metro.m */; };
+		D7ADAC0118EA18CD00497259 /* PMMetroView+Transilien.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ADAC0018EA18CD00497259 /* PMMetroView+Transilien.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,6 +309,10 @@
 		D7ADABF718EA0A4300497259 /* PMMetroView+Tram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PMMetroView+Tram.m"; sourceTree = "<group>"; };
 		D7ADABF918EA147100497259 /* PMMetroView+RER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PMMetroView+RER.h"; sourceTree = "<group>"; };
 		D7ADABFA18EA147100497259 /* PMMetroView+RER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PMMetroView+RER.m"; sourceTree = "<group>"; };
+		D7ADABFC18EA170D00497259 /* PMMetroView+Metro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PMMetroView+Metro.h"; sourceTree = "<group>"; };
+		D7ADABFD18EA170D00497259 /* PMMetroView+Metro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PMMetroView+Metro.m"; sourceTree = "<group>"; };
+		D7ADABFF18EA18CD00497259 /* PMMetroView+Transilien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PMMetroView+Transilien.h"; sourceTree = "<group>"; };
+		D7ADAC0018EA18CD00497259 /* PMMetroView+Transilien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PMMetroView+Transilien.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,6 +432,10 @@
 				D7ADABF718EA0A4300497259 /* PMMetroView+Tram.m */,
 				D7ADABF918EA147100497259 /* PMMetroView+RER.h */,
 				D7ADABFA18EA147100497259 /* PMMetroView+RER.m */,
+				D7ADABFC18EA170D00497259 /* PMMetroView+Metro.h */,
+				D7ADABFD18EA170D00497259 /* PMMetroView+Metro.m */,
+				D7ADABFF18EA18CD00497259 /* PMMetroView+Transilien.h */,
+				D7ADAC0018EA18CD00497259 /* PMMetroView+Transilien.m */,
 			);
 			name = Classes;
 			path = ../../../Classes;
@@ -801,8 +811,10 @@
 				D734119718B4DDB300D3A553 /* TMVAppDelegate.m in Sources */,
 				D734119318B4DDB300D3A553 /* main.m in Sources */,
 				D7ADABF818EA0A4300497259 /* PMMetroView+Tram.m in Sources */,
+				D7ADABFE18EA170D00497259 /* PMMetroView+Metro.m in Sources */,
 				D734119D18B4DDB300D3A553 /* TMVViewController.m in Sources */,
 				D73411BE18B4DE4500D3A553 /* PMMetroView.m in Sources */,
+				D7ADAC0118EA18CD00497259 /* PMMetroView+Transilien.m in Sources */,
 				D7ADABFB18EA147100497259 /* PMMetroView+RER.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

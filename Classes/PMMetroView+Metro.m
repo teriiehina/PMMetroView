@@ -10,6 +10,61 @@
 
 @implementation PMMetroView (Metro)
 
+- (void)drawMetroRect:(CGRect)rect
+{
+  MAKE_RATIOS(self.frame, 1000);
+  
+  //// Color Declarations
+  UIColor* color28 = [UIColor colorWithRed: 0 green: 0 blue: 0.529 alpha: 1];
+  
+  //// Bezier Drawing
+  UIBezierPath* bezierPath = [UIBezierPath bezierPath];
+  MOVE_PATH_TO( bezierPath , 500 , 35);
+  CURVE_PATH(bezierPath , 965 , 500 , 756.81 , 35 , 965 , 243.19);
+  CURVE_PATH(bezierPath , 500 , 965 , 965 , 756.81 , 756.81 , 965);
+  CURVE_PATH(bezierPath , 35 , 500 , 243.19 , 965 , 35 , 756.81);
+  CURVE_PATH(bezierPath , 500 , 35 , 35 , 243.19 , 243.19 , 35);
+  [bezierPath closePath];
+  [color28 setStroke];
+  bezierPath.lineWidth = 70 * ratioH;
+  [bezierPath stroke];
+  
+  
+  //// Bezier 2 Drawing
+  UIBezierPath* bezier2Path = [UIBezierPath bezierPath];
+  MOVE_PATH_TO( bezier2Path , 748.71 , 723.71);
+  LINE_PATH_TO( bezier2Path , 748.71 , 287.5 );
+  CURVE_PATH(bezier2Path , 693.75 , 236.26 , 748.71 , 262.51 , 735.02 , 236.26);
+  CURVE_PATH(bezier2Path , 636.27 , 277.54 , 662.55 , 236.26 , 650 , 250.01);
+  LINE_PATH_TO( bezier2Path , 501.24 , 558.76 );
+  LINE_PATH_TO( bezier2Path , 500.01 , 558.76 );
+  LINE_PATH_TO( bezier2Path , 363.74 , 277.54 );
+  CURVE_PATH(bezier2Path , 306.22 , 236.26 , 349.98 , 250.01 , 337.5 , 236.26);
+  CURVE_PATH(bezier2Path , 251.22 , 287.5 , 264.98 , 236.26 , 251.22 , 262.51);
+  LINE_PATH_TO( bezier2Path , 251.22 , 723.72 );
+  CURVE_PATH(bezier2Path , 292.47 , 761.23 , 251.22 , 747.54 , 269.99 , 761.23);
+  CURVE_PATH(bezier2Path , 334.96 , 723.72 , 312.46 , 761.23 , 334.96 , 747.54);
+  LINE_PATH_TO( bezier2Path , 334.96 , 398.75 );
+  LINE_PATH_TO( bezier2Path , 336.23 , 398.75 );
+  LINE_PATH_TO( bezier2Path , 459.96 , 651.24 );
+  CURVE_PATH(bezier2Path , 500 , 678.78 , 468.72 , 668.75 , 480 , 678.78);
+  CURVE_PATH(bezier2Path , 540 , 651.24 , 519.96 , 678.78 , 531.23 , 668.75);
+  LINE_PATH_TO( bezier2Path , 663.73 , 398.75 );
+  LINE_PATH_TO( bezier2Path , 665 , 398.75 );
+  LINE_PATH_TO( bezier2Path , 665 , 723.71 );
+  CURVE_PATH(bezier2Path , 707.48 , 761.22 , 665 , 747.53 , 687.46 , 761.22);
+  CURVE_PATH(bezier2Path , 748.71 , 723.71 , 730.02 , 761.22 , 748.71 , 747.53);
+  LINE_PATH_TO( bezier2Path , 748.71 , 723.71 );
+  [bezier2Path closePath];
+  bezier2Path.miterLimit = 4;
+  
+  [color28 setFill];
+  [bezier2Path fill];
+  
+  
+  
+}
+
 - (void)drawM1Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);

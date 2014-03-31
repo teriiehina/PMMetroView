@@ -11,6 +11,7 @@
 
 @interface PMMetroView (RER)
 
+- (void)drawRERRect:(CGRect)rect;
 
 -(void)drawRERARect:(CGRect)rect;
 -(void)drawRERBRect:(CGRect)rect;

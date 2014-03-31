@@ -11,6 +11,7 @@
 #import "PMMetroView+Metro.h"
 #import "PMMetroView+Tram.h"
 #import "PMMetroView+RER.h"
+#import "PMMetroView+Transilien.h"
 
 @interface PMMetroView ()
 
@@ -37,6 +38,11 @@
 {
   switch (self.line)
   {
+    case PARIS_METRO: [self drawMetroRect:rect];  break;
+    case PARIS_TRAM:  [self drawTramRect:rect];   break;
+    case PARIS_RER:   [self drawRERRect:rect];    break;
+    case PARIS_TRANS: [self drawTransRect:rect];  break;
+      
     case PARIS_M1:  [self drawM1Rect:rect];  break;
     case PARIS_M2:  [self drawM2Rect:rect];  break;
     case PARIS_M3:  [self drawM3Rect:rect];  break;
@@ -66,6 +72,15 @@
     case PARIS_RER_C:  [self drawRERCRect:rect]; break;
     case PARIS_RER_D:  [self drawRERDRect:rect]; break;
     case PARIS_RER_E:  [self drawRERERect:rect]; break;
+    
+    case PARIS_TRANS_H:  [self drawTransHRect:rect]; break;
+    case PARIS_TRANS_J:  [self drawTransJRect:rect]; break;
+    case PARIS_TRANS_K:  [self drawTransKRect:rect]; break;
+    case PARIS_TRANS_L:  [self drawTransLRect:rect]; break;
+    case PARIS_TRANS_N:  [self drawTransNRect:rect]; break;
+    case PARIS_TRANS_P:  [self drawTransPRect:rect]; break;
+    case PARIS_TRANS_R:  [self drawTransRRect:rect]; break;
+    case PARIS_TRANS_U:  [self drawTransURect:rect]; break;
       
     default:
       break;

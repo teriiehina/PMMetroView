@@ -12,6 +12,47 @@
 @implementation PMMetroView (Tram)
 
 
+- (void)drawTramRect:(CGRect)rect
+{
+  MAKE_RATIOS(self.frame, 1000);
+  
+  //// Color Declarations
+  UIColor* color30 = [UIColor colorWithRed: 0 green: 0 blue: 0.529 alpha: 1];
+  UIColor* color31 = [UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1];
+  
+  //// Oval Drawing
+  UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(35 * ratioW, 35 * ratioH, 930 * ratioW, 930 * ratioH)];
+  [color31 setFill];
+  [ovalPath fill];
+  [color30 setStroke];
+  ovalPath.lineWidth = 70 * ratioH;
+  [ovalPath stroke];
+  
+  
+  //// Bezier Drawing
+  UIBezierPath* bezierPath = [UIBezierPath bezierPath];
+  MOVE_PATH_TO( bezierPath , 680.49 , 269.68);
+  LINE_PATH_TO( bezierPath , 321.9 , 269.68 );
+  CURVE_PATH(bezierPath , 277.01 , 313.92 , 321.9 , 269.68 , 277.01 , 270.3);
+  CURVE_PATH(bezierPath , 321.24 , 358.23 , 277.01 , 313.92 , 277.01 , 358.81);
+  LINE_PATH_TO( bezierPath , 453.33 , 358.23 );
+  LINE_PATH_TO( bezierPath , 453.88 , 742.81 );
+  CURVE_PATH(bezierPath , 502.32 , 786.53 , 453.88 , 742.81 , 453.88 , 786.53);
+  CURVE_PATH(bezierPath , 547.76 , 742.16 , 502.32 , 786.53 , 548.32 , 787.59);
+  LINE_PATH_TO( bezierPath , 547.76 , 358.22 );
+  LINE_PATH_TO( bezierPath , 679.3 , 358.77 );
+  CURVE_PATH(bezierPath , 722.99 , 313.87 , 679.3 , 358.77 , 722.99 , 358.77);
+  CURVE_PATH(bezierPath , 680.48 , 269.67 , 723 , 313.87 , 723 , 270.29);
+  bezierPath.miterLimit = 4;
+  
+  [color30 setFill];
+  [bezierPath fill];
+  
+  
+  
+}
+
+
 -(void)drawT1Rect:(CGRect)rect
 {
   MAKE_RATIOS(self.frame, 1000);
