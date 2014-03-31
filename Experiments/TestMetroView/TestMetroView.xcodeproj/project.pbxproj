@@ -82,6 +82,7 @@
 		D73412B318B4E0F800D3A553 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B218B4E0F800D3A553 /* CoreText.framework */; };
 		D73412B518B4E10100D3A553 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B418B4E10100D3A553 /* libxml2.dylib */; };
 		D73412B718B4E10D00D3A553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73412B618B4E10D00D3A553 /* QuartzCore.framework */; };
+		D7ADABF818EA0A4300497259 /* PMMetroView+Tram.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ADABF718EA0A4300497259 /* PMMetroView+Tram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -301,6 +302,8 @@
 		D73412B218B4E0F800D3A553 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		D73412B418B4E10100D3A553 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		D73412B618B4E10D00D3A553 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D7ADABF618EA0A4300497259 /* PMMetroView+Tram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PMMetroView+Tram.h"; sourceTree = "<group>"; };
+		D7ADABF718EA0A4300497259 /* PMMetroView+Tram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PMMetroView+Tram.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +419,8 @@
 			children = (
 				D73411BC18B4DE4500D3A553 /* PMMetroView.h */,
 				D73411BD18B4DE4500D3A553 /* PMMetroView.m */,
+				D7ADABF618EA0A4300497259 /* PMMetroView+Tram.h */,
+				D7ADABF718EA0A4300497259 /* PMMetroView+Tram.m */,
 			);
 			name = Classes;
 			path = ../../../Classes;
@@ -790,6 +795,7 @@
 			files = (
 				D734119718B4DDB300D3A553 /* TMVAppDelegate.m in Sources */,
 				D734119318B4DDB300D3A553 /* main.m in Sources */,
+				D7ADABF818EA0A4300497259 /* PMMetroView+Tram.m in Sources */,
 				D734119D18B4DDB300D3A553 /* TMVViewController.m in Sources */,
 				D73411BE18B4DE4500D3A553 /* PMMetroView.m in Sources */,
 			);
